@@ -8,7 +8,7 @@ if "%SPHINXBUILD%" == "" (
 	set SPHINXBUILD=sphinx-build
 )
 set SOURCEDIR=.
-set BUILDDIR=docsbuild
+set BUILDDIR=_build
 set SPHINXPROJ=webmcr_gm_edition
 
 if "%1" == "" goto help

@@ -1,20 +1,27 @@
-.. webmcr_gm_edition documentation master file, created by
-   sphinx-quickstart on Tue Jul 24 22:30:55 2018.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. webmcr_gm_edition
 
-Welcome to webmcr_gm_edition's documentation!
+=============================================
+MagicMCR (webmcr_gm_edition)
 =============================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+Публичный проект JM Organization для проекта Grand-Mine. Проект носит кодовое 
+название webmcr_gm_edition. Представляет из себя cms для сайтов проектов игры Minecraft. 
+Основывается уже на готовой cms WebMCR и является улучшенной её версией.
 
+Мы думаем, что эта версия вам понравится куда больше. 
+**Удобстово и красота кода - залог его работы**!
 
+PSR-0, PSR-4
+------------
 
-Indices and tables
-==================
+В MagicMCR была интегрирована поддержка стандартов автозагрузки файлов. Вам не нужно беспокоиться 
+о том, будет ли загружен ваш класс. Также, это дало возможность использовать сторонние php-библиотеки, 
+к примеру, `FastRoute`_, котороя используется в MagicMCR для маршрутизации. 
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+Маршрутизация
+-------------
+
+Как уже сказано выше, в движке используется новый алгоритм определения обработчика маршрута.
+Маршруты были адаптированы под человеко-понятные. 
+
+.. _`FastRoute`: https://github.com/nikic/FastRoute
