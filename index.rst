@@ -24,4 +24,10 @@ PSR-0, PSR-4
 Как уже сказано выше, в движке используется новый алгоритм определения обработчика маршрута.
 Маршруты были адаптированы под человеко-понятные. 
 
+.. toctree::
+   :titlesonly:
+   :numbered:
+
+   routing/index
+
 .. _`FastRoute`: https://github.com/nikic/FastRoute
