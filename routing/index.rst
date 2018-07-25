@@ -9,7 +9,7 @@
 Но в его реализации всегда есть спорные моменты и определённые сложности. Но, с библиотекой `FastRoute`_ 
 определённые сложности ушли на второй план, а некоторые вовсе не ощущались. 
 
-В MagicMCR Семантический URL реализован по методу RESTAPI 
+В |mcr| Семантический URL реализован по методу RESTAPI 
 ``__ROUTE__ => Handler->{action}();``
 
 .. toctree::
@@ -17,6 +17,8 @@
 
    router/index
 
+.. |mcr| replace:: MagicMCR
+   
 .. __: https://ru.wikipedia.org/wiki/Семантический_URL
 
 .. _`ЧПУ`: https://ru.wikipedia.org/wiki/Семантический_URL
